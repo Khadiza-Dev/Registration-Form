@@ -4,40 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h2>Registration Form</h2>
+    <div class="registration-box">
+        <h1>Registration Form</h1>
         <h4>Create Your Account</h4>
         <form action="">
-            <label for="">First Name</label>
+                <label for="">First Name</label>
             <input type="text" placeholder="enter your name">
+
             <label for="">Last Name</label>
             <input type="text" placeholder="your last name">
+                
             <label for="">Email</label>
             <input type="email" placeholder="your email address">
+                
             <label for="">Password</label>
             <input type="password" placeholder="your password">
-            <label for="">Phone NO</label>
+
+                <label for="">Phone NO</label>
             <input type="number" placeholder="phone number">
-            <label for="">Date of Barth</label>
-            <input type="date">
-            <label for="">Gender</label>
-            <input type="radio"name="gender">male
-            <input type="radio"name="gender">female
-            <input type="radio"name="gender">others
-            <label for="">Group</label>
-            <select name="drop-dwon">
-                <option value="science">science</option>
-                <option value="science">commerce</option>
-                <option value="science">arts</option>
-            </select>
-            <label for="">Hobbies</label>
-            <input type="checkbox"singing>Singing
-            <input type="checkbox"dancing>Dansing
-            <input type="checkbox"playing>Playing
-           <input type="submit"value="submit">
-           <p>Don't have a account<br>submit hear</p>
+                <label for="">Date of Barth</label>
+                <input type="date">
+                <label for="">Group</label>
+                <select name="drop-dwon"> 
+                    <option value="science">science</option>
+                    <option value="science">commerce</option>
+                    <option value="science">arts</option>
+                </select>
+                    <input class="button" type="submit"value="submit">
+           <p>Don't have a account?<br><a href="#">submit</a> hear</p>
         </form>
     </div>
 </body>
